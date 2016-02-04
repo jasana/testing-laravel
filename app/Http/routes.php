@@ -23,9 +23,11 @@ Route::get('contact', function(){
 	return view('contact');
 });
 
-Route::get('product', function(){
-	return view('product');
+Route::post('contact', function(){
+	return 'Sent contact form';
 });
+
+Route::get('products', 'ProductsController@index');
 
 /*
 |--------------------------------------------------------------------------

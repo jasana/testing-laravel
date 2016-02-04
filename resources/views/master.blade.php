@@ -17,5 +17,9 @@
 
 	@yield('content')
 
+	<footer>
+		<p>Copyright date goes here </p>
+	</footer>
+
 </body>
 </html>
